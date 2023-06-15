@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 @RestController
-public class Controller {
+public class NoteController {
     @Autowired
     private NoteService notes;
 
